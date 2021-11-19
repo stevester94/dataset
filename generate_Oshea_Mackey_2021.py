@@ -30,6 +30,8 @@ vec_length = 128
 snr_vals = range(-20,20,2)
 samps_per_symbol_options = [2,4,6,8,10,12,14,16,18,20]
 
+samps_per_symbol_options = [8]
+
 for samps_per_symbol in samps_per_symbol_options:
     transmitters.sps = samps_per_symbol
     for snr in snr_vals:
